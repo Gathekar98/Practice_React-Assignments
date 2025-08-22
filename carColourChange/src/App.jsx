@@ -19,7 +19,7 @@ function App() {
     <>
       <h1>My {car.brand}</h1>
       <h2>
-        It is {car.color} {car.modal} from {arguments.year}
+        It is {car.color} {car.modal} from {car.year}
       </h2>
       <button onClick={changeColor}>Blue</button>
     </>
